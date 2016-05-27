@@ -6,15 +6,27 @@
     <link rel="stylesheet" href="css/mystyle.css" media="screen" title="no title" charset="utf-8">
     <title>Alvin Ng</title>
   </head>
+
   <body>
     <!-- nav -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <div class="navbar-collapse">
+        <button type="button" name="button">
+        </button>
+        <a class="navbar-brand" href="#">Logo</a>
+        <div class="collapse navbar-collapse">
           <ul class="navbar-nav navbar-right">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Projects</a></li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" data-target="#">About Me<b class="caret"></b></a>
+              <ol>
+                <li>Hobbies</li>
+                <li>Work</li>
+                <li class="divider"></li>
+                <li>Goals</li>
+              </ol>
+            </li>
           </ul>
         </div>
       </div>
@@ -22,10 +34,13 @@
     <!-- end nav -->
 
     <!-- carousel -->
-    <div class="btn">
-      <a href="#">Download my app</a>
-      <a href="#">Download my app</a>
-      <a href="#">Download my app</a>
+
+    <div class="carousel">
+      <div class="btn">
+        <a href="#">Download my app</a>
+        <a href="#">Download my app</a>
+        <a href="#">Download my app</a>
+      </div>
     </div>
     <!-- end carousel -->
     <div class="container">
@@ -33,26 +48,44 @@
       <h1>p</h1>
       <div class="row">
         <div class="col-xs-4">
+          <h3>Column 1</h3>
           <p>p</p>
           <p>p</p>
           <p>p</p>
           <p>p</p>
           <p>p</p>
+          <div class="row">
+            <div class="col-xs-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+            <div class="col-xs-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
         </div>
         <div class="col-xs-4">
+          <h3>Column 2</h3>
           <p>p</p>
           <p>p</p>
           <p>p</p>
           <p>p</p>
           <p>p</p>
+          <div class="row">
+            <div class="col-xs-12">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
         </div>
         <div class="col-xs-4">
+          <h3>column 3</h3>
           <p>p</p>
+
           <p>p</p>
-          <p>p</p>
-          <p>p</p>
-          <p>p</p>
-          <p>p</p>
+          <div class="row">
+            <div class="col-xs-11">
+              <img class="img-responsive" src="img/dog.jpg" alt="dog" />
+            </div>
+          </div>
         </div>
       </div>
 

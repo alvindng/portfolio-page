@@ -5,3 +5,8 @@
 body{
   margin-top: 100px;
 }
+
+img.logo {
+  width: 10px;
+  height: 10px;
+}
