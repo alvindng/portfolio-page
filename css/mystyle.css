@@ -3,6 +3,7 @@ body{
   text-align: center;
   background-color: black;
   color: white;
+  margin-bottom: 5%;
 }
 
 .container{
@@ -25,6 +26,20 @@ body{
   color: black;
 }
 
+
+
 .col-sm-4 a{
   font-size: 20pt;
+  padding-bottom: 5%
+}
+
+ul{
+  list-style-type: none;
+  text-align: left;
+  float: left;
+  font-weight: bold;
+}
+
+img {
+  padding-left: 7%;
 }

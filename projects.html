@@ -41,7 +41,35 @@
       </div>
     </div>
     <!-- end nav -->
+    <!-- modal -->
+    <div class="modal fade" id="textmodal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">This is a Modal</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form">
+              <div class="form-group">
+                <label class="sr-only" for="mobilePhone">Mobile Phone</label>
+                <input type="tel" class="form-control" id="mobilePhone"
+                placeholder="Mobile Phone">
+              </div>
+              <div class="form-group">
+                <select class="form-control">
+                  <option>Option 1</option>
+                  <option>Option 2</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary form-control" data-dismiss="modal">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
 
+    </div>
+    <!-- end modal -->
     <!-- carousel -->
       <div id="mycarousel" class="carousel slide jumbotron">
         <div class="container">
@@ -56,13 +84,13 @@
                 <h1><strong>Alvin Ng</strong></h1>
                 <p>Welcome to my Website</p>
               </div>
-              <a class="btn btn-success" href="#">Ask me a question</a>
+              <a class="btn btn-success" data-toggle="modal" href="#textmodal">Ask me a question</a>
             </div>
             <div class="item active">
               <h1><strong>Work</strong></h1>
               <p class="lead">Take a look at my past and current projects</p>
-              <a class="btn btn-success" href="#">Download my portfolio</a>
-              <a class="btn btn-primary" href="#">Download my app</a>
+              <a class="btn btn-success" data-toggle="modal" href="#textmodal">Download my portfolio</a>
+              <a class="btn btn-primary" data-toggle="modal" href="#textmodal">Download my app</a>
             </div>
             <div class="item">
               <h1><strong>About Me</strong></h1>
@@ -82,32 +110,36 @@
       <div class="row">
         <div class="col-sm-4">
           <a href="https://github.com/alvindng/vacation-site">Vacation Site</a>
-          <p>p</p>
-          <p>p</p>
-          <p>p</p>
-          <p>p</p>
-          <p>p</p>
+          <p>The introduction of Bootstrap to our class allowed us to more efficiently style a webpage and access a wide variety of guides from the Bootstrap library. HTML and CSS were used to demonstrate the following tools and concepts:</p>
           <div class="row">
             <div class="col-xs-6">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              <ul>
+                <li>jquery</li>
+                <li>carousels</li>
+                <li>modals</li>
+              </ul>
             </div>
             <div class="col-xs-6">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              <ul>
+                <li>jumbotrons</li>
+                <li>glyphicons</li>
+                <li>grid systems</li>
+              </ul>
             </div>
           </div>
         </div>
         <div class="col-sm-4">
           <a href="https://github.com/alvindng/favorite-band">Favorite Band</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>This project was to showcase the use of floats and how they can be used to create separate columns. HTML and CSS were used.</p>
           <div class="row">
             <div class="col-xs-12">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
             </div>
           </div>
         </div>
         <div class="col-sm-4">
           <a href="https://github.com/alvindng/animal-shelter">Animal Shelter</a>
-          <p>This project was to showcase the use of floats and how they can be used to create separate columns. HTML and CSS were used.<p>
+          <p>This project was to showcase the use of floats and how they can be used to create separate columns by creating a website for an animal shelter and featuring several pets available for adoption. HTML and CSS were used.<p>
           <div class="row">
             <div class="col-xs-11">
               <img class="img-responsive" src="img/dog.jpg" alt="dog" />
