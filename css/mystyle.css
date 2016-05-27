@@ -24,3 +24,7 @@ body{
   text-align: center;
   color: black;
 }
+
+.col-sm-4 a{
+  font-size: 20pt;
+}
