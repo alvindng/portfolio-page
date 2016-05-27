@@ -1,29 +1,26 @@
-.container{
-  max-width: 1000px;
-}
-
 body{
   margin-top: 100px;
   text-align: center;
+  background-color: black;
+  color: white;
 }
 
-.jumbotron{
-  text-align: center;
-}
-img.logo {
-  width: 10px;
-  height: 10px;
+.container{
+  max-width: 1000px;
 }
 
 .carousel-indicators{
   bottom: 0;
 }
 
-.carousel-indicators .active{
-  top: 0;
+.carousel-indicators .active {
   background-color: black;
 }
-.carousel-indicators li{
-  top: 0;
+
+.carousel-indicators li {
   border-color: black;
+}
+.carousel{
+  text-align: center;
+  color: black;
 }
