@@ -11,20 +11,27 @@
     <!-- nav -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <button type="button" name="button">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar collapse">
         </button>
-        <a class="navbar-brand" href="#">Logo</a>
+
+        <a class="navbar-brand text-muted" href="#">Logo</a>
         <div class="collapse navbar-collapse">
-          <ul class="navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li class="dropdown">
-              <a data-toggle="dropdown" data-target="#">About Me<b class="caret"></b></a>
-              <ol>
-                <li>Hobbies</li>
-                <li>Work</li>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="active" href="#">Home</a></li>
+              <li class="dropdown"><a data-toggle="dropdown" data-target="#">Projects<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Hobbies</a></li>
+                  <li><a href="#">Work</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Goals</a></li>
+                </ul>
+              </li>
+            <li class="dropdown"><a data-toggle="dropdown" data-target="#">About Me<b class="caret"></b></a>
+              <ol class="dropdown-menu">
+                <li><a href="#">Hobbies</a></li>
+                <li><a href="#">Work</a></li>
                 <li class="divider"></li>
-                <li>Goals</li>
+                <li><a href="#">Goals</a></li>
               </ol>
             </li>
           </ul>
@@ -36,9 +43,10 @@
     <!-- carousel -->
 
     <div class="carousel">
-      <div class="btn">
-        <a href="#">Download my app</a>
-        <a href="#">Download my app</a>
+
+      <div class="buttons">
+        <a class="btn btn-success" href="#">Download my app</a>
+        <a class="btn btn-default" href="#">Download my app</a>
         <a href="#">Download my app</a>
       </div>
     </div>
@@ -48,7 +56,7 @@
       <h1>p</h1>
       <div class="row">
         <div class="col-xs-4">
-          <h3>Column 1</h3>
+          <h3>Thought 1</h3>
           <p>p</p>
           <p>p</p>
           <p>p</p>
@@ -64,7 +72,7 @@
           </div>
         </div>
         <div class="col-xs-4">
-          <h3>Column 2</h3>
+          <h3>Thought 2</h3>
           <p>p</p>
           <p>p</p>
           <p>p</p>
@@ -77,7 +85,7 @@
           </div>
         </div>
         <div class="col-xs-4">
-          <h3>column 3</h3>
+          <h3>Thought 3</h3>
           <p>p</p>
 
           <p>p</p>
