@@ -4,6 +4,7 @@ body{
   background-color: black;
   color: white;
   margin-bottom: 5%;
+  background-image: image();
 }
 
 .container{
@@ -26,11 +27,13 @@ body{
   color: black;
 }
 
-
-
 .col-sm-4 a{
   font-size: 20pt;
   padding-bottom: 5%
+}
+span{
+  font-size: 14pt;
+  color: yellow;
 }
 
 ul{
@@ -42,4 +45,9 @@ ul{
 
 img {
   padding-left: 7%;
+}
+
+.video {
+  width: 100%;
+  height: auto;
 }
